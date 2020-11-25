@@ -1,0 +1,310 @@
+/* app global css */
+.perfilBTN{
+  font-size: 20px;
+}
+p.text-h1{
+  color:white;
+  font-weight: 600;
+  font-size: 170px;
+}
+p.text-h4{
+  color:white;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 60px;
+}
+.layout {
+  background: linear-gradient(45deg, #20d5f2, #69ef84);
+  align-items: center;
+  display: flex;
+  
+}
+
+.text-h2{
+  color: #707070;
+  font-weight: 500;
+}
+.q-pt-none{
+  margin-top: 10px;
+}
+
+.box{
+  justify-content: space-between;
+  
+ 
+}
+.row{
+  align-items: center;
+  justify-content: space-evenly;
+}
+.my-card{
+  align-items: center;
+  width: 45.75rem;
+  height: 51.4375rem;
+  border-radius: 60px;
+  padding: 105px 129px 106px;
+  justify-content: space-evenly;
+}
+.Sign{
+  color: #39E57E;
+  font-weight: 600;
+  font-size: 24px;
+
+}
+.Forgot{
+  font-weight: 400;
+  font-size: 18px;
+}
+.BTN{
+  align-self: center;
+}
+.full-width{
+  height: 55px;
+}
+.check{
+  padding-left: 10px;
+}
+.account{
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+.col{
+ justify-content: center;
+ 
+}
+.Marca-Home{
+  display: flex;
+  padding-left: 10rem;
+}
+.my-card1{
+  border-radius: 20px;
+  width: 1920px;
+  height: 200px;
+}
+.SubBanner{
+  display: flex;
+}
+.text-h4, .text-h5{
+  color: #707070;
+}
+/*Header*/
+
+/*Sign in */
+.layout2{
+  background: linear-gradient(45deg, #20d5f2, #69ef84);
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.Inputs-SignIn{
+  margin-top: 1rem;
+}
+.subTexts{
+  margin-top: 1rem;
+}
+/*proflist */
+
+.layoutProf {
+  background: linear-gradient(45deg, #20d5f2, #69ef84);
+  align-items: center;
+  display: flex;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  
+}
+.Text-Tutores{
+  color: white;
+  padding: 15px 15px 15px 15px ;
+  font-size: 64px;
+  font-weight: 600;
+}
+.Selections {
+  display: flex;
+  
+  
+}
+.Selection{
+  width:536px ;
+  height: 115px;
+  
+  padding: 15px 15px 15px 15px ;
+  margin: 15px 15px 15px 15px;
+  border-radius: 5px;
+
+}
+
+.Text-TC{
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+.my-card-Prof{
+  border-radius: 40px;
+  padding: 30px 45px 30px 45px ;
+  margin-top: 25px;
+  
+}
+.Text-Prof{
+ font-size: 20px;
+ color: #8F8F8F;
+}
+.Price{
+  flex-direction: row;
+}
+/*proflist ADD */
+.Text-Tutores-ADD{
+  color: white;
+  padding: 15px 15px 0px 15px ;
+  font-size: 64px;
+  font-weight: 600;
+}
+.Text-Tutores-ADD-Sub{
+  color: white;
+  padding: 0px 15px 15px 15px ;
+  font-size: 30px;
+  font-weight: 600;
+}
+.Dados{
+  font-weight: 600;
+  font-size: 35px;
+  padding-top: 10px;
+}
+.item{
+  display: flex;
+  width:300px ;
+  height: 115px;
+}
+.Dados-What{
+  font-size: 20px;
+  color: #B1B1B1;
+}
+.Campo-What{
+  width:250px ;
+  height: 100px;
+}
+.Dados-Materia{
+  font-size: 20px;
+  color: #B1B1B1;
+  padding-top: 15px;
+}
+.Footer-Prof{
+  display: flex;
+  justify-content: space-around;
+  background-color: #e6e6e6;
+  margin-top: 20px;
+}
+.Footer-Text-1{
+  color: #62EC8E;
+  font-weight: 600;
+  font-size: 25px;
+}
+.Footer-Text-2{
+  color: #8D8D8D;
+  font-weight: 500;
+  font-size: 15px;
+}
+/*Card-Service*/
+.Card-Service{
+  height: 500px;
+  width: 900px;
+
+}
+.Services-Options{
+ display: flex; 
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin: 20px;
+
+}
+.Plano-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 150px;
+  height: 250px;
+  border-radius: 25px;
+  padding: 15px;
+  font-family: 'Roboto';
+  
+  font-weight: 600;
+  border: 3px solid #F56AF0;
+  color: #F56AF0;
+  
+}
+.Plano-2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 250px;
+  color: #20D5F2;
+  border-radius: 25px;
+  padding: 15px;
+ 
+  font-family: 'Roboto';
+ 
+  font-weight: 600;
+  border: 3px solid #20D5F2;
+}
+.Plano-3{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 150px;
+  height: 250px;
+  
+  border-radius: 25px;
+  padding: 15px;
+  
+  font-family: 'Roboto';
+ 
+  font-weight: 600;
+  border: 3px solid #69EF85;
+  color: #69EF85;
+  
+}
+.textTitle{
+  font-size: 25px;
+  font-family: 'Roboto';
+  
+}
+/*Layout de recursos do aluno*/
+.Layout-Resources{
+  background: linear-gradient(45deg, #20d5f2, #69ef84);
+  align-items: center;
+  display: flex;
+}
+.my-card-Resources{
+  display: flex;
+  border-radius: 25px;
+ 
+}
+.Resources-Text-T{
+  font-size: 30px;
+  padding: 15px;
+  color: #838383;
+
+}
+.Resources-Text-Sub{
+  font-size: 25px;
+  padding-bottom: 15px;
+  color: #838383;
+
+}
+.RecursoV{
+  display: flex;
+  flex-direction: row;
+ 
+  align-items: center;
+  padding: 15px 0px 10px 15px;
+}
+.Group-Text-R{
+  font-weight: 400;
+  color: #838383;
+  font-size: 30px;
+  padding-left: 15px;
+}
